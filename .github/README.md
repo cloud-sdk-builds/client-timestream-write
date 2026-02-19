@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-timestream-write`](https://www.npmjs.com/package/@aws-sdk/client-timestream-write/v/3.549.0).
+[`@aws-sdk/client-timestream-write`](https://www.npmjs.com/package/@aws-sdk/client-timestream-write/v/3.552.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.549.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.552.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Q7DoNnL4dzR309giT6gtUd8ZOdU6sNx6sR+sMEsHRwMV4hNwFu7s1duSywarvwP2
+sha384-UHfjbbD/L4nl5JVQn/szgWI2pBbo2X4cBluxUnxHNyFpszL2inhJo6l8Fm6/r8HC
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-timestream-write": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.549.0/index.min.mjs"
+            "@aws-sdk/client-timestream-write": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.552.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.549.0/index.min.mjs": "sha384-Q7DoNnL4dzR309giT6gtUd8ZOdU6sNx6sR+sMEsHRwMV4hNwFu7s1duSywarvwP2"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.552.0/index.min.mjs": "sha384-UHfjbbD/L4nl5JVQn/szgWI2pBbo2X4cBluxUnxHNyFpszL2inhJo6l8Fm6/r8HC"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-timestream-write": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.549.0/index.min.mjs"
+                        "@aws-sdk/client-timestream-write": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.552.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.549.0/index.min.mjs": "sha384-Q7DoNnL4dzR309giT6gtUd8ZOdU6sNx6sR+sMEsHRwMV4hNwFu7s1duSywarvwP2"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-write@3.552.0/index.min.mjs": "sha384-UHfjbbD/L4nl5JVQn/szgWI2pBbo2X4cBluxUnxHNyFpszL2inhJo6l8Fm6/r8HC"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.549.0`)
+* Always pin to a specific version (`@3.552.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-timestream-write/blob/refs/tags/3.549.0/LICENSE
+https://github.com/cloud-sdk-builds/client-timestream-write/blob/refs/tags/3.552.0/LICENSE
 ```
 
 ---
